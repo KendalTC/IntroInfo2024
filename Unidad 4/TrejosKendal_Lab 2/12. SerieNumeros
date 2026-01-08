@@ -1,0 +1,44 @@
+Algoritmo SerieNumeros
+	definir numIngresado, numMayor, numMenor, sumatoria, contador como entero;
+	definir promedio como real;
+	definir esPrimeraVez como logica;
+	numIngresado = 0;
+	numMayor = 0;
+	numMenor = 0;
+	promedio = 0;
+	sumatoria = 0;
+	contador = 0;
+	esPrimeraVez = verdadero;
+	
+	repetir  
+		
+		escribir "Ingrese el numero con el que desea trabajar (digite 0 cuando desea terminar)";
+		leer numIngresado;		
+		si numIngresado > numMayor entonces 
+			numMayor = numIngresado;
+			
+			si esPrimeraVez entonces 
+				numMenor = numIngresado; 
+				esPrimeraVez = falso;
+			finsi
+			
+		sino 
+			si numIngresado < numMenor & numIngresado <> 0 entonces
+				
+				numMenor = numIngresado;
+				
+			finSi
+		finSi
+		
+		si numIngresado <> 0 entonces 
+			contador = contador + 1;
+		finSi
+		
+ 		sumatoria = numIngresado + sumatoria;
+	hasta que numIngresado == 0
+	
+	promedio = sumatoria / contador;
+	escribir "El numero mayor de la lista es: ", numMayor;
+	escribir "El numero menor de la lista es: ",numMenor;
+	escribir "El promedio de la lista de numeros es: ", promedio;
+FinAlgoritmo

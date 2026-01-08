@@ -1,0 +1,22 @@
+Algoritmo Gasolinera
+	Definir PRECIO_LITRO Como Real; 
+	PRECIO_LITRO = 650.30;
+	Definir nombreCliente Como Cadena;
+	Definir litrosVendidos Como Real;
+	Definir totalPagar Como Real;
+	
+	
+	
+	Escribir "Indique el nombre del cliente";
+	Leer nombreCliente; 
+	Escribir "Indique la cantidad de litros de combustible vendidos";
+	Leer litrosVendidos; 
+	
+	totalPagar = PRECIO_LITRO * litrosVendidos;
+	
+	Escribir "Nombre cliente: ", nombreCliente;
+	escribir "Litros vendidos: ", litrosVendidos;
+	Escribir "Monto total a pagar: ",totalPagar;
+	Escribir "Gracias por su preferencia";
+FinAlgoritmo
+

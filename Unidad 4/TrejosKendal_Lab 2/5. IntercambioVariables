@@ -1,0 +1,21 @@
+Algoritmo IntercambioVariables
+	Definir numero1 Como Entero; 
+	Definir numero2 Como Entero; 
+	Definir temporal Como Entero;
+	
+	numero1 = 0;
+	numero2 = 0;
+	temporal = 0;
+	
+	Escribir "Indique el primer numero entero con el que desea trabajar";
+	Leer numero1; 
+	Escribir "Indique el segundo numero con el que desea trabajar";
+	Leer numero2; 
+	
+	temporal = numero1;
+	numero1 = numero2;
+	numero2 = temporal; 
+	
+	Escribir "El valor del primer numero es: ", numero1;
+	Escribir "El valor del segundo numero es: ", numero2;
+FinAlgoritmo

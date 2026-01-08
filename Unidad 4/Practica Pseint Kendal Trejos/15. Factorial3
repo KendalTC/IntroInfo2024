@@ -1,0 +1,19 @@
+Algoritmo Factorial3
+	
+	definir operando, i, factorial como entero;
+	
+	factorial = 1;
+	operando = 3;
+	i = 0;
+	
+	Para i<-1 Hasta operando Con Paso 1 Hacer
+		
+		escribir i, "*";
+		
+		factorial = factorial * i;
+		
+	
+	FinPara
+	escribir "=", factorial;
+	Escribir "El factorial de ",operando, " es: ",factorial;
+FinAlgoritmo

@@ -1,0 +1,14 @@
+Algoritmo CalculoCircunferencia
+	// Paso 1 - Definir variables y constantes
+	Definir CONST_PI como Real;
+	CONST_PI = 3.14;
+	Definir diametro como Real;
+	Definir circunferencia como Real ;
+	
+	Escribir 'Digite el diametro de la circunferencia';
+	Leer diametro;
+	
+	circunferencia <- diametro*CONST_PI;
+	
+	Escribir 'La medida de la circunferencia es: ', circunferencia;
+FinAlgoritmo

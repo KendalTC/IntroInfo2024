@@ -1,0 +1,12 @@
+Algoritmo CalculoEsfera
+	// Area esfera = 4.pi.radio al cuadrado
+	Definir CONST_PI Como Real;
+	CONST_PI <- 3.1415;
+	Definir radio Como Real;
+	Definir area Como Real;
+	Escribir 'Por favor indique el radio de la esfera';
+	Leer radio;
+	area <- [4 * CONST_PI] * radio^2;
+	Escribir "El area de la esfera con radio ",  radio , " es: ", area;
+
+FinAlgoritmo

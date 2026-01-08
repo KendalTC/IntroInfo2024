@@ -1,0 +1,42 @@
+Algoritmo CalculoIMC
+	definir peso como real;
+	definir estatura como real; 
+	definir imc como real;
+	definir BAJO como real;
+	BAJO = 18;
+	definir NORMAL como real;
+	NORMAL = 24.9;
+	definir SOBREPESO como real;
+	SOBREPESO = 26.9;
+	definir OBESIDAD como real;
+	OBESIDAD = 27;
+	
+	
+	escribir "Por favor indique su peso (Kg)";
+	leer peso;
+	escribir "Por favor indique su estatura (Metros)";
+	leer estatura;
+	
+	imc = peso / estatura^2;
+	
+	si imc < BAJO entonces 
+		escribir "Su índice de masa muscular es: ", imc, " que se clasifica como bajo";
+	sino 
+		
+		si imc <= NORMAL entonces 
+			escribir "Su índice de masa muscular es: ", imc, " que se clasifica como normal";
+		sino
+			
+			si imc <= SOBREPESO entonces 
+				escribir "Su indice de masa musculas es: ", imc, " que se clasifica como sobrepeso"; 
+			sino 
+				
+				si imc >= OBESIDAD entonces
+					escribir "Su indice de masa muscular es: ", imc, " que se clasifica como obesidad";
+				sino
+				finsi
+			finsi
+		finsi
+	finsi
+	
+FinAlgoritmo

@@ -1,0 +1,23 @@
+Algoritmo NumerosDivisibles
+	definir numero1, numero2, residuo como entero;
+	
+	numero1 = 0;
+	numero2 = 0;
+	residuo =0;
+	
+	
+	escribir "Indique el primer numero con el que desea trabajar";
+	leer numero1;
+	escribir "Indique el segundo numero con el que desea trabajar";
+	leer numero2;
+	
+	residuo = numero1 % numero2;
+	si residuo == 0 entonces
+		escribir "El ", numero1, " si es divisible entre ", numero2;
+		
+	sino 
+		escribir "El primer numero ingresado no es divisible entre el segundo";
+		
+	finsi
+	
+FinAlgoritmo

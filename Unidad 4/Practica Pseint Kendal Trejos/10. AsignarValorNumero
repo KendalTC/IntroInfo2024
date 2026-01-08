@@ -1,0 +1,16 @@
+Algoritmo AsignarValorNumero
+	Definir numIngresado Como Entero;
+	numIngresado = 0;
+	
+	Escribir 'Por favor ingrese el numero que desea evaluar';
+	Leer numIngresado;
+	Si numIngresado < 0 Entonces
+		Escribir "El numero indicado es negativo";
+	SiNo
+		Si numIngresado == 0 Entonces
+			Escribir "El numero indicado es 0";
+		SiNo
+			Escribir "El numero indicado es positivo";
+		FinSi
+	FinSi
+FinAlgoritmo

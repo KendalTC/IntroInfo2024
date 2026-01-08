@@ -1,0 +1,19 @@
+Universidad de Costa Rica
+Sede de Occidente 
+Bachillerato en Informática Empresarial 
+Curso IF-1300 Introducción a la Computación e Informática
+
+Profesor: Dennis Gonzáles Herrera 
+
+Proyecto Final: Juego_RPG
+
+Estudiantes: 
+
+Johan Andrey Rivera Martinez 	C4I975
+Kendal Trejos Cubero 		C4K374
+Anthonny López Martinez 	C4G614
+
+Fecha de entrega: 27 de junio, 2024, 8am 
+
+VIDEO: https://drive.google.com/file/d/1VaD5tqwwQYfpItemj3jTWfjha3FGmoLo/view?usp=drive_link
+

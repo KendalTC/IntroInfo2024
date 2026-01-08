@@ -1,0 +1,26 @@
+Algoritmo NumerosRomanos
+	definir numDecimal como entero;
+	definir numRomano como cadena;
+	
+	numDecimal = 0; 
+	numRomano = "";
+	escribir "Por favor digite un numero entre 1 y 5";
+	leer numDecimal; 
+	
+	segun (numDecimal) hacer 
+		1: 
+			numRomano = "I";
+		2: 
+			numRomano = "II";
+		3: 
+			numRomano = "III";
+		4: 
+			numRomano = "IV";
+		5: 
+			numRomano = "V";
+		de otro modo: 
+			escribir "Solo se permiten numeros entre 1 y 5";
+	finsegun
+	
+	escribir "El resultado de convertir el numero ", numDecimal, " a numero romano es: " , numRomano;
+FinAlgoritmo

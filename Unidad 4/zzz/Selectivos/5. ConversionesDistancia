@@ -1,0 +1,31 @@
+Algoritmo ConversionesDistancia
+	
+    definir OPERADOR como real;
+    OPERADOR = 3.6;
+    definir indicador como entero;
+    definir resultadoKilometros como real;
+    definir resultadoMetros como real; 
+    definir kilometros como real;
+    definir metros como real;
+    
+    escribir "Digite 1 si desea convertir de Km/h a m/s o digite 2 si desea convertir de m/s a Km/h";
+    leer indicador;
+    
+    segun indicador hacer
+        1: 
+            escribir "Indique la cantidad de kilometros por hora con la que desea trabajar";
+            leer kilometros;
+            resultadoMetros = kilometros / OPERADOR; 
+            escribir "El resultado al convertir ", kilometros, " Km/h a m/s es: ", resultadoMetros;
+            
+        2:
+            escribir "Indique la cantidad de metros por segundo con la que desea trabajar";
+            leer metros;
+            resultadoKilometros = metros * OPERADOR;
+            escribir "El resultado al convertir ", metros, " m/s a Km/h es: ", resultadoKilometros;
+            
+        De Otro Modo: 
+            escribir "Opción no válida, por favor ingrese 1 o 2";
+    finSegun
+	
+Fin Algoritmo 

@@ -1,0 +1,16 @@
+/*
+*@version 6/5/24
+*@author Kendal Trejos Cubero
+*/
+
+public class Escritor {
+    public Escritor() { //Constructor (new)
+
+    }
+    public void escribir (String mensaje) {
+        System.out.println(mensaje);
+
+    }
+
+}
+

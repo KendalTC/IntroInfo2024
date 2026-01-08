@@ -1,0 +1,10 @@
+Algoritmo DibujoAsteriscos
+	Definir dibujo Como cadena;
+	dibujo = "";
+	
+	mientras dibujo <> "*****" hacer
+		dibujo = "*" + dibujo;
+		escribir dibujo;
+		
+	finMientras
+FinAlgoritmo

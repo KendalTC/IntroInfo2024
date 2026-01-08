@@ -1,0 +1,12 @@
+Algoritmo CambioSignoNumeroEntero
+	// Paso 1 - Definir variables 
+	Definir numIngresado Como Entero;
+	Definir numContrario Como Entero;
+	// Paso 2 - obtenemos datos de entrada 
+	Escribir 'Digite el numero con el que desea trabajar ';
+	Leer numIngresado;
+	// Paso 3 - Procesamiento de los datos 
+	numContrario = numIngresado * (-1);
+	// Paso 4 - Salida de la información 
+	Escribir 'El numero contrario es: ', numContrario;
+FinAlgoritmo

@@ -1,0 +1,20 @@
+Algoritmo CalculoFactorial
+	definir numIngresado como entero;
+	definir i como entero; 
+	definir factorial como entero; 
+	
+	numIngresado = 0;
+	factorial = 1;
+	
+	escribir "Indique el numero al que desea obtener su factorial";
+	leer numIngresado;
+	
+	para i=1 hasta numIngresado con paso 1 Hacer
+		escribir i, " * ", factorial;
+		factorial = factorial * i;
+		
+	finPara
+	escribir " = ", factorial;
+	escribir "El factorial del numero ",numIngresado, " es: " ,factorial;
+	
+FinAlgoritmo

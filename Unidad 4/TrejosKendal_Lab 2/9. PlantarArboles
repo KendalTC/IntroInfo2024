@@ -1,0 +1,40 @@
+Algoritmo PlantarArboles
+	definir DISTANCIA_ARBOL como real;
+	DISTANCIA_ARBOL = 4.5;
+	definir AGRICULTOR_MEDIANO como real;
+	AGRICULTOR_MEDIANO = 200;
+	definir AGRICULTOR_PEQUENO como real; 
+	AGRICULTOR_PEQUENO = 50;
+	definir AGRICULTOR_GRANDE como real;
+	AGRICULTOR_GRANDE = 201;
+	
+	definir terreno como real; 
+	definir cantidadArboles como real;
+	
+	terreno = 0;
+	cantidadArboles = 0;
+	
+	
+	escribir "Por favor, indique el terreno disponible para sembrar los árboles, en metros cuadrados";
+	leer terreno;
+	
+	cantidadArboles = terreno / DISTANCIA_ARBOL;
+	
+	si cantidadArboles <= AGRICULTOR_PEQUENO entonces
+		Escribir "Usted puede plantar: ", cantidadArboles, " arboles por lo que es un agricultor pequeño";
+		
+	sino 
+		si cantidadArboles <= AGRICULTOR_MEDIANO entonces 
+			escribir "Usted puede plantar: ", cantidadArboles, " arboles por lo que es un agricultor mediano";
+			
+		sino 
+			si cantidadArboles >= AGRICULTOR_GRANDE entonces 
+				escribir "Usted puede plantar: ", cantidadArboles, " arboles por lo que es un agricultor grande";
+				
+			sino 
+			finsi
+		finsi
+	finsi 
+	
+	
+FinAlgoritmo

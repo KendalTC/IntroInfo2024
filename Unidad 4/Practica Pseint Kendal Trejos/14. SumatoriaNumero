@@ -1,0 +1,21 @@
+Algoritmo SumatoriaNumero
+	definir numIngresado, resultadoSumatoria, contador como entero;
+	
+	numIngresado = 0;
+	resultadoSumatoria = 0; 
+	contador = 0;
+	
+	escribir "Por favor indique el numero con el cual desea realizar la sumatoria";
+	leer numIngresado;
+	
+	mientras (contador <> numIngresado) hacer 
+		contador = contador +1;
+		resultadoSumatoria = resultadoSumatoria + contador;
+		escribir contador, "+";
+		
+	finMientras
+	
+	escribir "=",resultadoSumatoria, " El resultado de la sumatoria de ", numIngresado, " es: ", resultadoSumatoria;
+	
+FinAlgoritmo
+

@@ -1,0 +1,27 @@
+Algoritmo MayorEdad
+	// Definir
+	Definir edad Como Entero;
+	definir i como entero;
+	definir mayoresEdad como entero;
+	definir nombre como cadena;
+	
+	mayoresEdad = 0;
+	edad = 0;
+	nombre = "";
+	
+	// entradas
+	Para i <-1 Hasta 5 Con Paso 1 Hacer
+		escribir "Digite su nombre";
+		leer nombre;
+		escribir "Indique su edad";
+		leer edad;
+		
+		si edad >= 18 entonces 
+			
+			cantidad = cantidad + 1;
+			
+		finsi
+
+	finpara
+	escribir "La cantidad de personas mayores de 18 años es: ", mayoresEdad;
+FinAlgoritmo

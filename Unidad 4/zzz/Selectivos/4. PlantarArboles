@@ -1,0 +1,36 @@
+Algoritmo PlantarArboles
+	definir DIST_ARBOL como real;
+	DIST_ARBOL = 4.5;
+	definir terreno como entero; 
+	definir cantidadArbol como real;
+	definir GRANDE como real;
+	GRANDE = 201;
+	definir PEQUENO como real; 
+	PEQUENO = 50;
+	definir MEDIANO como real;
+	MEDIANO = 200;
+
+	
+	escribir "Por favor, indique el terreno disponible para sembrar los árboles, en metros cuadrados";
+	leer terreno;
+	cantidadArbol = terreno / DIST_ARBOL;
+	si cantidadArbol <= PEQUENO entonces
+		Escribir "Usted puede plantar: ", cantidadArbol, " arboles por lo que es un agricultor pequeño";
+		
+	sino 
+		si cantidadArbol <= MEDIANO entonces 
+			escribir "Usted puede plantar: ", cantidadArbol, " arboles por lo que es un agricultor mediano";
+			
+		sino 
+			si cantidadArbol >= GRANDE entonces 
+				escribir "Usted puede plantar: ", cantidadArbol, " arboles por lo que es un agricultor grande";
+				
+			sino 
+				
+			finsi
+		finsi
+		
+	finsi 
+	
+	
+FinAlgoritmo

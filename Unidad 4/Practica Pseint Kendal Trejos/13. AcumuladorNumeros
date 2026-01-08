@@ -1,0 +1,17 @@
+Algoritmo AcumuladorNumeros
+	Definir numIngresado Como Entero;
+	Definir resultadoAcumulado Como Entero;
+	numIngresado <- 0;
+	resultadoAcumulado <- 0;
+	
+	Escribir 'Digite el numero que desea acumular';
+	Leer numIngresado;
+	
+	Repetir
+		resultadoAcumulado <- numIngresado+resultadoAcumulado;
+		Escribir 'El resultado al acumular ', numIngresado, ' es: ', resultadoAcumulado;
+		Escribir 'Digite el siguiente numero que desea acumular o digite 0 si desea terminar';
+		Leer numIngresado;
+	Hasta Que numIngresado==0
+	Escribir 'El total acumulado es: ', resultadoAcumulado;
+FinAlgoritmo

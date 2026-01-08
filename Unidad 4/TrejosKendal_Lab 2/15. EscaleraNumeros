@@ -1,0 +1,21 @@
+Algoritmo EscaleraNumeros
+	
+	definir altura como entero;
+	definir i, f como entero;
+	
+	
+	altura = 0;
+	
+	escribir "Indique la altura o la base de su escalera";
+	leer altura;
+	Para i = 1 Hasta altura Con Paso 1 Hacer
+		para f = 1 hasta i con paso 1 hacer
+			escribir f sinSaltar;
+				
+		finPara
+		escribir "";
+	FinPara
+	
+	
+	
+FinAlgoritmo

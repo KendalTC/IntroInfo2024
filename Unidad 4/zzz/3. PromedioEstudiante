@@ -1,0 +1,20 @@
+Algoritmo PromedioEstudiante
+	Definir promedio1 Como Real;
+	Definir promedio2 Como Real;
+	Definir promedio3 Como Real;
+	Definir promedio4 Como Real;
+	Definir promedioTotal Como Real;
+	Definir nombre Como Cadena;
+	Escribir 'Por favor indique su nombre';
+	Leer nombre;
+	Escribir 'Por favor indique el promedio de su primer curso (escala 1-100)';
+	Leer promedio1;
+	Escribir 'Por favor indique el promedio de su segundo curso (escala 1-100)';
+	Leer promedio2;
+	Escribir 'Por favor indique el promedio de su tercer curso (escala 1-100)';
+	Leer promedio3;
+	Escribir 'Por favor indique el promedio de su cuarto curso (escala 1-100)';
+	Leer promedio4;
+	promedioTotal <- (promedio1+promedio2+promedio3+promedio4)/4;
+	Escribir 'El promedio cuatrimestral del estudiante ', nombre, 'es ', promedioTotal;
+FinAlgoritmo

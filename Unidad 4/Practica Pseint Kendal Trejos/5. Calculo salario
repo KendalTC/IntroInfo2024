@@ -1,0 +1,17 @@
+Algoritmo CalculoSalario
+	// Definir variables y constantes
+	Definir salario Como Real;
+	Definir horasExtras Como Real;
+	Definir salarioTotal Como Real;
+	Definir VALOR_EXTRAS Como Real;
+	VALOR_EXTRAS = 3500;
+	
+	Escribir 'Por favor indique su salario base';
+	Leer salario;
+	Escribir 'Por favor indique la cantidad de horas extras trabajadas durante el mes';
+	Leer horasExtras;
+	
+	salarioTotal = salario + (horasExtras * VALOR_EXTRAS);
+	
+	Escribir 'Su salario total es: ', salarioTotal;
+FinAlgoritmo

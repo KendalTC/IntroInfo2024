@@ -1,0 +1,20 @@
+Algoritmo Encuesta
+	Definir lugar, comida, color, cancion Como Cadena;
+	
+	Escribir "Por favor indique cual es su lugar favorito";
+	Leer lugar;
+	Escribir "Por favor indique cual es su comida favorita";
+	Leer comida;
+	Escribir "Por favor indique cual es su color favorito";
+	Leer color;
+	Escribir "Por favor indique cual es su cancion favorita"; 
+	leer cancion;
+	
+	Escribir "Su lugar favorito es: ", lugar;
+	Escribir "Su comida favorita es: ", comida; 
+	Escribir "Su color favorito es: ", color; 
+	Escribir "Su canción favorita es: ", cancion;
+	Escribir "Gracias por su participación, fue de gran ayuda para la encuesta";
+	
+
+FinAlgoritmo

@@ -1,0 +1,30 @@
+Algoritmo RendimientoAcademico
+	definir porcentajeAprobados como entero; 
+	definir BUENO como entero;
+	BUENO = 80;
+	definir PESIMO como entero; 
+	PESIMO = 50;
+	definir MALO como entero;
+	MALO = 60;
+	
+	porcentajeAprobados = 0;
+	
+	escribir "Por favor indique el porcentaje de aprobados";
+	leer porcentajeAprobados;
+	
+	si porcentajeAprobados >= BUENO entonces 
+		escribir "El rendimiento de los estudiantes es bueno";
+	sino 
+		
+		si porcentajeAprobados >= PESIMO & porcentajeAprobados <= MALO entonces
+			escribir "El rendimiento de los estudiantes es malo";
+		sino 
+			
+			si porcentajeAprobados < PESIMO entonces 
+				escribir "El rendimiento de los estudiantes es pesimo";
+				
+			sino
+			finsi
+		finsi
+	finsi
+FinAlgoritmo

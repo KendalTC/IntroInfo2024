@@ -1,0 +1,19 @@
+Algoritmo SumatoriaMultiplosCinco
+	definir contador como entero;
+	definir sumatoria como entero;
+	
+	sumatoria = 0;
+	contador = 5; 
+	
+	escribir "Se suman los multiplos: ";
+	
+	mientras contador <= 100 hacer
+		
+		escribir contador;
+		contador = contador + 5; 
+		sumatoria = sumatoria + contador;
+		
+	finMientras
+	
+	escribir " La sumatoria de los multiplos del 5 hasta el 100 es:  ", sumatoria;
+FinAlgoritmo
